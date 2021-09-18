@@ -7,8 +7,7 @@ services:
     - "8888:80"       
    volumes:
     - ./index:/var/www/myapp
-    - ./conf.d:/etc/nginx/conf.d
-    - ./img:/usr/share/nginx/html/img   
+    - ./conf.d:/etc/nginx/conf.d  
    networks:
     - phpnginx
           
