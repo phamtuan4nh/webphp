@@ -2,7 +2,7 @@ version: "3"
 services:
   web:
    container_name: webserver_1
-   image: nginxphp:latest
+   image: nginx:latest
    ports:
     - "8888:80"       
    volumes:
